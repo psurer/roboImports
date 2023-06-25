@@ -1,0 +1,70 @@
+/* header.component.scss */
+header {
+    background-color: #3F51B5;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fffffd;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #FFC107;
+  }
+  
+  .cart-button {
+    position: relative;
+    background-color: #FFC107;
+    color: #1d0cff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    background-color: #FFA000;
+  }
+  
+  .cart-button-icon {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #FFF;
+    color: #FFC107;
+    font-size: 0.8rem;
+    padding: 3px 6px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
